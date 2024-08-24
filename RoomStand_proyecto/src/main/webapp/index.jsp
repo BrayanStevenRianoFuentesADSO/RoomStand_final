@@ -22,7 +22,8 @@
 
   <section class="section1">
 
-      <form class="section1__login" id="form_login_huesped">
+      <form class="section1__login" id="form_login_huesped" action="SV_login_huesped" method="POST">
+
 
       <h1 class="login__titulo">Inicia sesión</h1>
       <button class="login__googlebutton">Bienvenido</button>
@@ -30,8 +31,8 @@
         aqui</a>
       
       <p class="login__texto">o</p>
-      <input type="text" placeholder="Correo electronico" class="login__input" id="email">
-      <input type="password" placeholder="Contraseña" class="login__input" id="password">
+      <input type="text" placeholder="Correo electronico" class="login__input" id="email" name="email">
+      <input type="password" placeholder="Contraseña" class="login__input" id="password" name="password">
 
       <div class="login__buttonscontainer">
         <button class="login__button login__button--cancelar"> <a href="index.jsp"

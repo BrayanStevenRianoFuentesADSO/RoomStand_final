@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Habitacion(nombre)</title>
         <link rel="icon" href="../imagenes/logo.png">
-        <link rel="stylesheet" href="info_habitacion.css">
+        <link rel="stylesheet" href="CSS/info_habitacion.css">
     </head>
     <body>
         

@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="login_propiet.css">
+        <link rel="stylesheet" href="CSS/login_propiet.css">
         <link rel="icon" href="../imagenes/logo.png">
         <title>login propietario</title>
     </head>
@@ -34,7 +34,7 @@
           <button class="login__button login__button--iniciar" type="submit">Iniciar sesión</button>
       </div>
 
-      <a href="registro propietario/registro_propietario.jsp" class="login__texto">O prefieres crear tu cuenta?</a>
+      <a href="registro_propietario.jsp" class="login__texto">O prefieres crear tu cuenta?</a>
 
     </form>
 

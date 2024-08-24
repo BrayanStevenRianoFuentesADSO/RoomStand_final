@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Owners registry</title>
-        <link rel="stylesheet" href="registro_propietario.css">
+        <link rel="stylesheet" href="CSS/registro_propietario.css">
         <link rel="icon" href="../imagenes/logo.png">
     </head>
     <body>

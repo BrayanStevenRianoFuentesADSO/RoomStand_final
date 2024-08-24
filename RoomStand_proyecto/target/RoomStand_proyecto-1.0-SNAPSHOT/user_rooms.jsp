@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>RoomStand</title>
-        <link rel="stylesheet" href="index_style.css">
+        <link rel="stylesheet" href="CSS/index_style.css">
         <link rel="icon" href="imagenes/logo.png">
     </head>
     
