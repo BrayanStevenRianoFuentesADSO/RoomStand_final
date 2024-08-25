@@ -88,7 +88,7 @@
 
 
 
-    <form action="" class="section2__form">
+    <form action="SV_crear_hotel" class="section2__form" method="POST" >
 
       <h1 class="form__titulo">Registra una nueva</h1>
 
@@ -98,16 +98,16 @@
 
           <div class="form__inputs_container">
             <p class="input__titulo">Cual es el nombre de tu hotel?</p>
-            <input type="text" placeholder="Digite el nombre de su hotel" class="form__input">
+            <input type="text" placeholder="Digite el nombre de su hotel" class="form__input" name="nombre">
 
             <p class="input__titulo">Pais en el que esta hubicado</p>
-            <input type="text" placeholder="Seleccione el pais" class="form__input">
+            <input type="text" placeholder="Seleccione el pais" class="form__input" name="pais">
 
             <p class="input__titulo">Tipo de propiedad</p>
-            <input type="text" placeholder="Selecciona un tipo de hospedaje" class="form__input">
+            <input type="text" placeholder="Selecciona un tipo de hospedaje" class="form__input" name="tipo">
 
-            <p class="input__titulo">Numero de habitaciones con las que cuenta</p>
-            <input type="text" placeholder="Ingrese el numero de habitaciones" class="form__input">
+            <p class="input__titulo">id_hotel</p>
+            <input type="text" placeholder="Ingrese el id de su hotel" class="form__input" name="id">
           </div>
 
           <div class="form__inputs">
@@ -115,22 +115,21 @@
             <div class="form__inputs_container">
 
               <p class="input__titulo">Direccion del hospedaje</p>
-              <input type="text" placeholder="Digite la direccion" class="form__input">
+              <input type="text" placeholder="Digite la direccion" class="form__input" name="direccion">
 
               <p class="input__titulo">Ciudad en la que se ubica el hotel</p>
-              <input type="text" placeholder="Seleccione el pais" class="form__input">
+              <input type="text" placeholder="Seleccione el pais" class="form__input" name="ciudad">
 
               <p class="input__titulo">Telefono del hotel</p>
-              <input type="text" placeholder="Digite el telefono" class="form__input">
+              <input type="text" placeholder="Digite el telefono" class="form__input" name="telefono">
 
               <p class="input__titulo">servicios adicionales</p>
-              <input type="text" placeholder="Cafeteria, parqueadero, etc." class="form__input">
+              <input type="text" placeholder="Cafeteria, parqueadero, etc." class="form__input" name="servicios">
             </div>
           </div>
         </div>
 
-        <button class="form__button"><a href="../registro habitacion/Registro_habitacion.html"
-            class="button__link">Registrar</a></button>
+        <button class="form__button" type="submit">Registrar</button>
     </form>
   </section>
 </body>

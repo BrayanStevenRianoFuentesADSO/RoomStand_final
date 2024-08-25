@@ -37,13 +37,13 @@
         <div class="form__inputs">
 
           <div class="input__container">
-            <p class="input__titulo">numero</p>
-            <input type="text" placeholder="Digite su nombre" class="input">
+            <p class="input__titulo">Nombre</p>
+            <input type="text" placeholder="Digite el nombre de la habitacion" class="input">
           </div>
 
           <div class="input__container">
-            <p class="input__titulo">Correo electronico</p>
-            <input type="text" placeholder="Digite su correo electronico" class="input">
+            <p class="input__titulo">Ubicación</p>
+            <input type="text" placeholder="Digite la ubicacion de la habitacion" class="input">
           </div>
 
 
@@ -55,20 +55,21 @@
 
           <div class="input__container">
             <p class="input__titulo">Numero de habitacion</p>
-            <input type="text" placeholder="Digite su numero de identificacion" class="input">
+            <input type="text" placeholder="Digite su numero de habitacion" class="input">
           </div>
 
           <div class="input__container">
-            <p class="input__titulo">Contraseña</p>
-            <input type="text" placeholder="Digite su contraseña" class="input">
+            <p class="input__titulo">Capacidadad</p>
+            <input type="number" placeholder="Digite su contraseña" class="input">
           </div>
 
         </div>
+        <input type="file" class="imagen_room">
       </div>
-      <div class="form__checkbox_container">
+      <div class="form__checkbox_container"> disponible
 
-        <input type="checkbox" id="disponible" class="form__checkbox">
-        <label for="disponible" class="checkbox__label">Disponible</label>
+        
+        <input type="checkbox" class="disponible" name="disponible">
       </div>
       <div class="form__container">
         <div class="form__inputs">
@@ -81,7 +82,7 @@
 
         </div>
       </div>
-
+      
     </form>
   </section>
 
